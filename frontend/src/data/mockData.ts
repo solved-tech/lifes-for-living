@@ -1,4 +1,4 @@
-export const navItems = ['Home', 'About', 'Contact'];
+export const navItems = ['Home', 'About', 'Travel', 'Events', 'Contact'];
 
 export const carouselSlides = [
   {

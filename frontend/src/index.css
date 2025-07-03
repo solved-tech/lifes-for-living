@@ -4,10 +4,12 @@
   --color-secondary: #8a66e0;   /* Purple */
   --color-accent: #e05c6b;      /* Coral/pink */
   --color-background: #ffffff;
+  --color-background-alt: rgba(138, 102, 224, 0.05);
   --color-text-primary: #212529;
   --color-text-secondary: #495057;
   --color-text-muted: #6c757d;
   --color-border: rgba(138, 102, 224, 0.2);
+  --color-shadow: rgba(57, 72, 175, 0.15);
 }
 
 /* Reset and Base Styles */

@@ -5,6 +5,10 @@ import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
+import TravelPage from './pages/TravelPage';
+import EventsPage from './pages/EventsPage';
+import TripDetailsPage from './pages/TripDetailsPage';
+import EventDetailsPage from './pages/EventDetailsPage';
 import './index.css';
 
 export default function App() {
@@ -24,6 +28,10 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/travel" element={<TravelPage />} />
+            <Route path="/travel/:tripId" element={<TripDetailsPage />} />
+            <Route path="/events" element={<EventsPage />} />
+            <Route path="/events/:eventId" element={<EventDetailsPage />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </AppShell.Main>

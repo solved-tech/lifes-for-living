@@ -5,6 +5,7 @@ import App from './App';
 import './index.css';
 import '@mantine/carousel/styles.css';
 import '@mantine/core/styles.css';
+import './mocks/api'; // Initialize mock API
 
 const theme = createTheme({
   fontFamily: 'Georgia, "Times New Roman", serif',

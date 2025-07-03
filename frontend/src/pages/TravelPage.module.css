@@ -1,0 +1,116 @@
+.container {
+  background: linear-gradient(135deg, var(--color-background) 0%, var(--color-background-alt) 100%);
+  min-height: 100vh;
+}
+
+.headerSection {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 60px;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 300;
+  letter-spacing: -0.02em;
+  margin-bottom: 1rem;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.subtitle {
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 300;
+}
+
+.tripCard {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid var(--color-border);
+  overflow: hidden;
+  background: white;
+}
+
+.tripCard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px var(--color-shadow);
+}
+
+.imageContainer {
+  position: relative;
+  overflow: hidden;
+}
+
+.tripImage {
+  transition: transform 0.6s ease;
+  object-fit: cover;
+}
+
+.tripCard:hover .tripImage {
+  transform: scale(1.1);
+}
+
+.overlay {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: var(--color-primary);
+  color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.tripCard:hover .overlay {
+  opacity: 1;
+}
+
+.cardContent {
+  background: linear-gradient(145deg, #ffffff 0%, #fafbff 100%);
+}
+
+.tripTitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.itinerary {
+  display: flex;
+  align-items: center;
+  line-height: 1.5;
+  color: var(--color-text-secondary);
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.bookButton {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  height: 45px;
+  transition: all 0.3s ease;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.bookButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px var(--color-shadow);
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2.5rem;
+  }
+  
+  .tripCard {
+    margin-bottom: 1.5rem;
+  }
+}

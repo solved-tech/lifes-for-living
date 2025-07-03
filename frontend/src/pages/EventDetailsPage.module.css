@@ -1,0 +1,166 @@
+.container {
+  background: linear-gradient(135deg, var(--color-background) 0%, var(--color-background-alt) 100%);
+  min-height: 100vh;
+}
+
+.backButton {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+}
+
+.eventHeader {
+  margin-bottom: 2rem;
+}
+
+.eventTitle {
+  font-size: 3rem;
+  font-weight: 300;
+  letter-spacing: -0.02em;
+  margin-bottom: 1rem;
+  font-family: Georgia, "Times New Roman", serif;
+  color: var(--color-primary);
+}
+
+.eventMeta {
+  margin-top: 1rem;
+}
+
+.metaItem {
+  font-size: 1rem;
+  font-family: Georgia, "Times New Roman", serif;
+  color: var(--color-text-secondary);
+}
+
+.eventImages {
+  margin-bottom: 3rem;
+}
+
+.mainImage {
+  box-shadow: 0 10px 30px var(--color-shadow);
+}
+
+.sectionTitle {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  color: var(--color-primary);
+  font-size: 1.75rem;
+  position: relative;
+  padding-bottom: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.sectionTitle::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background: var(--color-accent);
+}
+
+.descriptionText {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 300;
+  color: var(--color-text);
+}
+
+.speakersSection {
+  margin: 3rem 0;
+}
+
+.speakerCard {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.speakerCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px var(--color-shadow);
+}
+
+.speakerName {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.speakerRole {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.speakerBio {
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.6;
+}
+
+.expectationsSection {
+  margin: 3rem 0;
+}
+
+.expectationItem {
+  font-family: Georgia, "Times New Roman", serif;
+  margin-bottom: 0.75rem;
+}
+
+.registrationCard {
+  position: sticky;
+  top: 2rem;
+  background: white;
+}
+
+.cardTitle {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  color: var(--color-primary);
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.detailsSection {
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+  padding: 1.5rem 0;
+}
+
+.detailIcon {
+  color: var(--color-secondary);
+}
+
+.registerButton {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  height: 50px;
+  font-family: Georgia, "Times New Roman", serif;
+  transition: all 0.3s ease;
+  margin-top: 1.5rem;
+}
+
+.registerButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px var(--color-shadow);
+}
+
+.disclaimer {
+  font-family: Georgia, "Times New Roman", serif;
+  margin-top: 1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .eventTitle {
+    font-size: 2.25rem;
+  }
+  
+  .registrationCard {
+    position: static;
+    margin-top: 2rem;
+  }
+  
+  .eventMeta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+}

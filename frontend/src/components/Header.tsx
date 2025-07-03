@@ -31,6 +31,8 @@ export function Header({ navItems }: HeaderProps) {
     const itemLower = item.toLowerCase();
     if (itemLower === 'home') return '/';
     if (itemLower === 'contact') return '/contact';
+    if (itemLower === 'travel') return '/travel';
+    if (itemLower === 'events') return '/events';
     return `#${itemLower}`;
   };
 
