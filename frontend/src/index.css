@@ -1,3 +1,15 @@
+/* Color Palette Variables */
+:root {
+  --color-primary: #3948af;     /* Deep blue */
+  --color-secondary: #8a66e0;   /* Purple */
+  --color-accent: #e05c6b;      /* Coral/pink */
+  --color-background: #ffffff;
+  --color-text-primary: #212529;
+  --color-text-secondary: #495057;
+  --color-text-muted: #6c757d;
+  --color-border: rgba(138, 102, 224, 0.2);
+}
+
 /* Reset and Base Styles */
 * {
   margin: 0;
@@ -8,8 +20,8 @@
 body {
   font-family: Georgia, "Times New Roman", serif;
   line-height: 1.6;
-  color: #212529;
-  background-color: #ffffff;
+  color: var(--color-text-primary);
+  background-color: var(--color-background);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -21,7 +33,7 @@ body {
   z-index: 100;
   background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid var(--color-border);
   transition: all 0.3s ease;
 }
 
@@ -38,7 +50,7 @@ body {
   left: 0;
   width: 0;
   height: 1px;
-  background-color: #212529;
+  background-color: var(--color-secondary);
   transition: width 0.3s ease;
 }
 
@@ -47,7 +59,7 @@ body {
 }
 
 .nav-link:hover {
-  color: #000000 !important;
+  color: var(--color-primary) !important;
 }
 
 /* Navigation link styling with active state */
@@ -59,19 +71,15 @@ body {
 .nav-link::after {
   content: '';
   position: absolute;
-  bottom: 0;
+  bottom: -2px;
   left: 0;
   width: 0;
   height: 1px;
-  background-color: currentColor;
+  background-color: var(--color-secondary);
   transition: width 0.3s ease;
 }
 
-.nav-link:hover::after {
-  width: 100%;
-}
-
-.nav-link.active::after {
+.nav-link:hover::after, .nav-link.active::after {
   width: 100%;
 }
 
@@ -112,13 +120,13 @@ body {
 
 /* Social Links */
 .social-link {
-  color: #6c757d;
-  transition: color 0.3s ease, transform 0.3s ease;
+  color: var(--color-secondary);
+  transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .social-link:hover {
-  color: #212529;
   transform: translateY(-2px);
+  color: var(--color-accent);
 }
 
 /* Responsive Typography */
