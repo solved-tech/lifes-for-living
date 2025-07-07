@@ -148,7 +148,7 @@ export default function TripDetailsPage() {
             <Box mt={50} mb={40}>
               <Title order={2} mb="xl" className={styles.sectionTitle}>Trip Gallery</Title>
               <SimpleGrid cols={{ base: 1, sm: 2 }} spacing="md">
-                {tripGallery.map((img, i) => (
+                {tripGallery.map((_, i) => (
                   <Image
                     key={i}
                     src={trip.imageUrl} // Fallback to the main image since these are mock

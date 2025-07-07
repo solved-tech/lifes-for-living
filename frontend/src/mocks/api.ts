@@ -62,7 +62,7 @@ const mockEvents: Event[] = [
 const mockInstagram: InstagramPost[] = [
   {
     id: '1',
-    mediaType: 'photo',
+    mediaType: 'image',
     thumbnailUrl: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=300&h=300&fit=crop',
     postUrl: 'https://instagram.com/p/example1'
   },
@@ -74,13 +74,13 @@ const mockInstagram: InstagramPost[] = [
   },
   {
     id: '3',
-    mediaType: 'photo',
+    mediaType: 'image',
     thumbnailUrl: 'https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=300&h=300&fit=crop',
     postUrl: 'https://instagram.com/p/example3'
   },
   {
     id: '4',
-    mediaType: 'photo',
+    mediaType: 'image',
     thumbnailUrl: 'https://images.unsplash.com/photo-1539650116574-75c0c6d73f6e?w=300&h=300&fit=crop',
     postUrl: 'https://instagram.com/p/example4'
   },
@@ -92,7 +92,7 @@ const mockInstagram: InstagramPost[] = [
   },
   {
     id: '6',
-    mediaType: 'photo',
+    mediaType: 'image',
     thumbnailUrl: 'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=300&h=300&fit=crop',
     postUrl: 'https://instagram.com/p/example6'
   }
