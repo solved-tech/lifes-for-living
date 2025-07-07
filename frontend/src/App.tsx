@@ -7,7 +7,6 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import TravelPage from './pages/TravelPage';
 import EventsPage from './pages/EventsPage';
-import TripDetailsPage from './pages/TripDetailsPage';
 import EventDetailsPage from './pages/EventDetailsPage';
 import './index.css';
 
@@ -16,7 +15,7 @@ export default function App() {
     <BrowserRouter>
       <AppShell
         padding={0}
-        header={{ height: 200 }}
+        header={{ height: 80 }}
         footer={{ height: 120 }}
       >
         {/* HEADER */}
@@ -29,7 +28,6 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/travel" element={<TravelPage />} />
-            <Route path="/travel/:tripId" element={<TripDetailsPage />} />
             <Route path="/events" element={<EventsPage />} />
             <Route path="/events/:eventId" element={<EventDetailsPage />} />
             <Route path="*" element={<Navigate to="/" replace />} />

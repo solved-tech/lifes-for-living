@@ -3,14 +3,14 @@ import { Card, Grid, Stack, Title, Text, Image, Container, Space } from '@mantin
 export function IntroCard() {
   return (
     <>
-      <Space h={80} />
+      <Space h={{ base: 60, sm: 60, md: 80 }} />
       <Container size="xl" px="xl">
         <Card shadow="sm" radius="md" p="xl" bg="gray.0">
           <Grid gutter="xl" align="center">
             <Grid.Col span={{ base: 12, md: 8 }}>
               <Stack gap="md">
                 <Title order={3} c="dark.8" fw={300} style={{ letterSpacing: '0.02em' }}>
-                  Welcome to Life's For Living
+                  Welcome
                 </Title>
                 <Text size="lg" c="dark.6" fw={300} style={{ 
                   letterSpacing: '0.02em', 

@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b8a39f5-9bff-436c-8ced-545f93088052" name="Changes" comment="" />
+    <list default="true" id="8b8a39f5-9bff-436c-8ced-545f93088052" name="Changes" comment="update site title">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/HeroSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/HeroSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/IntroCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/IntroCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/data/mockData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/data/mockData.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/mocks/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/mocks/api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Contact.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/EventDetailsPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/EventDetailsPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/EventsPage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/EventsPage.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/EventsPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/EventsPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/TravelPage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/TravelPage.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/TravelPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/TravelPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/TripDetailsPage.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/TripDetailsPage.tsx" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,28 +55,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/mba42/workspace/lifes-for-living&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;/Users/mba42/.nvm/versions/node/v20.19.0/bin/node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.nodejs&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Applications/IntelliJ IDEA.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "ignore_missing_gitignore": "true",
+    "last_opened_file_path": "/Users/mba42/workspace/lifes-for-living",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "/Users/mba42/.nvm/versions/node/v20.19.0/bin/node",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.nodejs",
+    "ts.external.directory.path": "/Users/mba42/workspace/lifes-for-living/frontend/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/frontend" />
@@ -141,7 +159,25 @@
       <workItem from="1751883544008" duration="39000" />
       <workItem from="1751886203479" duration="140000" />
       <workItem from="1751886373889" duration="118000" />
+      <workItem from="1751886506944" duration="3894000" />
     </task>
+    <task id="LOCAL-00001" summary="add .idea settings and fix type issue">
+      <option name="closed" value="true" />
+      <created>1751886656075</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1751886656075</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update site title">
+      <option name="closed" value="true" />
+      <created>1751886840597</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1751886840597</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +188,11 @@
         <option value="$PROJECT_DIR$/frontend/src/utils/api.js" />
       </list>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add .idea settings and fix type issue" />
+    <MESSAGE value="update site title" />
+    <option name="LAST_COMMIT_MESSAGE" value="update site title" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

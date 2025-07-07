@@ -2,7 +2,7 @@ import { Container, Grid, Stack, Title, Text, Button, Center, Image } from '@man
 
 export function HeroSection() {
   return (
-    <Container size="xl" py={80} px="xl">
+    <Container size="xl" py={{ top: 20, bottom: 40 }} px="xl">
       <Grid gutter="xl" align="center">
         <Grid.Col span={{ base: 12, md: 6 }} style={{ display: 'flex', justifyContent: 'center' }}>
           <Stack gap="xl" align="center" style={{ maxWidth: '90%' }}>

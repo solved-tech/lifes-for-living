@@ -23,10 +23,14 @@
   line-height: 1.6;
   font-family: Georgia, "Times New Roman", serif;
   font-weight: 300;
+  text-align: center;
 }
 
 .tripCard {
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
   border: 1px solid var(--color-border);
   overflow: hidden;
   background: white;
@@ -73,6 +77,9 @@
 
 .cardContent {
   background: linear-gradient(145deg, #ffffff 0%, #fafbff 100%);
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .tripTitle {
@@ -88,6 +95,7 @@
   line-height: 1.5;
   color: var(--color-text-secondary);
   font-family: Georgia, "Times New Roman", serif;
+  margin-bottom: auto;
 }
 
 .bookButton {
@@ -103,6 +111,28 @@
 .bookButton:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 25px var(--color-shadow);
+}
+
+.viewButton {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  height: 45px;
+  transition: all 0.3s ease;
+  font-family: Georgia, "Times New Roman", serif;
+  opacity: 1 !important;
+  visibility: visible !important;
+  background-color: var(--color-accent) !important;
+  color: white !important;
+  border: none !important;
+  display: block !important;
+}
+
+.viewButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px var(--color-shadow);
+  background-color: var(--color-primary) !important;
 }
 
 @media (max-width: 768px) {

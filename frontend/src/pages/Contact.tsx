@@ -117,7 +117,7 @@ export default function Contact() {
             </Stack>
           </Card>
 
-          {/* Personal Inquiries */}
+          {/* Follow My Journey */}
           <Card 
             shadow="sm" 
             radius="md" 
@@ -141,49 +141,16 @@ export default function Contact() {
                     alignItems: 'center'
                   }}
                 >
-                  <IconMail size={24} stroke={1.5} color="white" />
+                  <IconBrandInstagram size={24} stroke={1.5} color="white" />
                 </Box>
                 <Title order={3} c="accent" fw={400} style={{ letterSpacing: '0.02em' }}>
-                  Say Hello
+                  Follow My Journey
                 </Title>
               </Group>
               <Text size="lg" c="dark.6" fw={300} style={{ letterSpacing: '0.02em', lineHeight: 1.6 }}>
-                For personal messages, support, or just to share your own story with me.
+                Connect with me on social media for daily updates and inspiration.
               </Text>
-              <Anchor 
-                href="mailto:georgie@example.com" 
-                size="lg"
-                fw={400}
-                style={{ letterSpacing: '0.05em', color: 'var(--color-primary)' }}
-              >
-                georgie@example.com
-              </Anchor>
-            </Stack>
-          </Card>
-        </SimpleGrid>
-
-        {/* Social Media */}
-        <Card 
-          shadow="sm" 
-          radius="md" 
-          p="xl" 
-          mb={60}
-          style={{
-            border: '1px solid var(--color-secondary)',
-            boxShadow: '0 10px 30px rgba(138, 102, 224, 0.1)'
-          }}
-        >
-          <Box
-            style={{
-              background: 'linear-gradient(to right, rgba(219, 192, 240, 0.1), var(--color-background), rgba(219, 192, 240, 0.1))',
-              padding: '20px'
-            }}
-          >
-            <Stack gap="lg" align="center">
-              <Title order={3} c="primary" fw={400} style={{ letterSpacing: '0.02em', borderBottom: '1px solid var(--color-secondary)', paddingBottom: '10px' }} ta="center">
-                Follow My Journey
-              </Title>
-              <Group justify="center" gap="xl">
+              <Group gap="xl" mt="md">
                 <Anchor href="https://twitter.com/georgieswallow" target="_blank" aria-label="Twitter" 
                   style={{
                     color: 'var(--color-primary)',
@@ -222,8 +189,8 @@ export default function Contact() {
                 </Anchor>
               </Group>
             </Stack>
-          </Box>
-        </Card>
+          </Card>
+        </SimpleGrid>
 
         {/* Newsletter */}
         <Card 

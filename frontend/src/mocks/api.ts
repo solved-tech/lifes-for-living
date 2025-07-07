@@ -20,7 +20,7 @@ const mockTrips: Trip[] = [
     id: '3',
     title: 'Morocco Desert Safari',
     itinerary: '6 days through Marrakech, Atlas Mountains, and Sahara',
-    imageUrl: 'https://images.unsplash.com/photo-1539650116574-75c0c6d73f6e?w=400&h=300&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1489493512598-d08130f49bea?w=400&h=300&fit=crop',
     bookingUrl: 'https://example.com/book/morocco'
   },
   {

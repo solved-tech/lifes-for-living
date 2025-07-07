@@ -2,16 +2,13 @@ import {
   Anchor,
   Text,
   Image,
-  Container,
   Box,
   TextInput,
   Burger,
   Drawer,
   ScrollArea,
   Stack,
-  Divider,
-  Group,
-  Center
+  Divider
 } from '@mantine/core';
 import { IconSearch } from '@tabler/icons-react';
 import { useDisclosure } from '@mantine/hooks';
@@ -49,24 +46,23 @@ export function Header({ navItems }: HeaderProps) {
       <Drawer
         opened={mobileMenuOpened}
         onClose={closeMobileMenu}
-        size="xs"
-        padding="xl"
-        title={<Text fw={300} fz="xl" style={{ letterSpacing: '0.05em' }}>Menu</Text>}
-        overlayProps={{ backgroundOpacity: 0.5, blur: 4 }}
+        title="Menu"
+        padding="md"
+        size="sm"
+        position="left"
       >
-        <ScrollArea h="calc(100% - 60px)" type="never">
-          <Stack gap="xl" py="md">
+        <ScrollArea style={{ height: 'calc(100vh - 60px)' }}>
+          <Stack gap="md">
             {navItems.map((item) => (
               <Anchor
                 key={item}
                 component={Link}
                 to={getNavHref(item)}
-                fw={400}
-                fz="lg"
-                c="dark.8"
-                className="mobile-nav-link"
-                style={{ letterSpacing: '0.05em' }}
                 onClick={closeMobileMenu}
+                fw={400}
+                fz="md"
+                c="dark.8"
+                style={{ textDecoration: 'none' }}
               >
                 {item}
               </Anchor>
@@ -83,66 +79,55 @@ export function Header({ navItems }: HeaderProps) {
         </ScrollArea>
       </Drawer>
 
-      {/* STICKY HEADER */}
-      <div className="sticky-header">
-        <Container size="xl" h="100%" px="xl" style={{ position: 'relative' }}>
-          {/* Mobile Menu Button - only visible on small screens */}
-          <Box className="mobile-menu-button" style={{ position: 'absolute', left: 0, top: '50%', transform: 'translateY(-50%)', display: 'none' }}>
+      {/* MAIN HEADER */}
+      <header className="main-header">
+        <div className="header-container">
+          {/* Mobile Menu Button */}
+          <Box className="mobile-burger">
             <Burger opened={mobileMenuOpened} onClick={openMobileMenu} aria-label="Toggle menu" />
           </Box>
 
-          {/* Left: Navigation - hidden on small screens */}
-          <Group gap="lg" className="left-nav" style={{ position: 'absolute', left: 0, top: '50%', transform: 'translateY(-50%)' }}>
-            {navItems.map((item) => (
-              <Anchor
-                key={item}
-                component={Link}
-                to={getNavHref(item)}
-                className={`nav-link ${isActive(item) ? 'active' : ''}`}
-                fw={400}
-                fz="md"
-                c="dark.8"
-                style={{ 
-                  letterSpacing: '0.05em',
-                  textDecoration: 'none',
-                  position: 'relative',
-                  padding: '0.5rem 0'
-                }}
-              >
-                {item}
-              </Anchor>
-            ))}
-          </Group>
-
-          {/* Center: Logo */}
-          <Center style={{ height: '100%' }} className="logo-container">
-            <div className="logo-wrapper" style={{ 
-              height: 180, 
-              display: 'flex', 
-              alignItems: 'center',
-              margin: '15px 0'
-            }}>
-              <Image 
-                src={logo} 
-                alt="Life's For Living" 
-                style={{ maxHeight: '100%', width: 'auto', maxWidth: '100%' }}
-                fit="contain" 
-              />
+          {/* Left section with Logo and Navigation */}
+          <div style={{ display: 'flex', alignItems: 'center' }}>
+            {/* Logo */}
+            <div className="header-logo-section">
+              <Link to="/">
+                <Image 
+                  src={logo} 
+                  alt="Life's For Living" 
+                  className="header-logo-img"
+                  fit="contain" 
+                />
+              </Link>
             </div>
-          </Center>
+            
+            {/* Navigation Menu */}
+            <nav className="header-nav">
+              {navItems.map((item) => (
+                <Anchor
+                  key={item}
+                  component={Link}
+                  to={getNavHref(item)}
+                  className={`header-nav-link ${isActive(item) ? 'active' : ''}`}
+                >
+                  {item}
+                </Anchor>
+              ))}
+            </nav>
+          </div>
 
-          {/* Right: Search - hidden on small screens */}
-          <Box className="right-search" style={{ position: 'absolute', right: 0, top: '50%', transform: 'translateY(-50%)' }}>
+          {/* Search Bar */}
+          <div className="header-search">
             <TextInput
               placeholder="Search..."
               rightSection={<IconSearch size={16} />}
-              w={200}
               radius="md"
               variant="filled"
+              className="header-search-input"
             />
-          </Box>
-        </Container>
-      </div>
+          </div>
+        </div>
+      </header>
     </>
   );
 }

@@ -35,21 +35,21 @@ export default function EventDetailsPage() {
 
   // Extended mock data for the details page
   const eventImages = [
-    '/images/event-detail-1.jpg',
-    '/images/event-detail-2.jpg',
+    'https://images.unsplash.com/photo-1527529482837-4698179dc6ce?w=800&h=500&fit=crop',
+    'https://images.unsplash.com/photo-1540317580384-e5d43616b9aa?w=800&h=500&fit=crop',
   ];
 
   const eventSpeakers = [
     {
       name: "Sarah Johnson",
       role: "Wellness Coach",
-      avatar: "/images/speaker-1.jpg",
+      avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop",
       bio: "Sarah is a certified wellness coach with over 10 years of experience helping people transform their lives."
     },
     {
       name: "Michael Chen",
       role: "Nutritionist",
-      avatar: "/images/speaker-2.jpg",
+      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop",
       bio: "Michael specializes in plant-based nutrition and has helped hundreds of clients achieve their health goals."
     }
   ];

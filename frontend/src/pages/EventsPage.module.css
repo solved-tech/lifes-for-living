@@ -23,6 +23,7 @@
   line-height: 1.6;
   font-family: Georgia, "Times New Roman", serif;
   font-weight: 300;
+  text-align: center;
 }
 
 .eventCard {
@@ -58,7 +59,7 @@
 .cardContent {
   display: flex;
   gap: 2rem;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .dateSection {
@@ -154,7 +155,7 @@
   }
   
   .cardContent {
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 1rem;
   }
   
@@ -167,5 +168,15 @@
   
   .dateBox {
     margin-bottom: 0;
+    padding: 0.75rem;
+    transform: scale(0.9);
+  }
+  
+  .day {
+    font-size: 1.3rem;
+  }
+  
+  .month {
+    font-size: 0.75rem;
   }
 }

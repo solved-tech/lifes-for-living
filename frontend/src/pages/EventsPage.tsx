@@ -58,12 +58,18 @@ export default function EventsPage() {
 
   return (
     <Box className={styles.container}>
-      <Container size="md" py={80} px="xl">
+      <Container size="md" py={40} px="xl">
         <Box mb={60} className={styles.headerSection}>
-          <Title order={1} c="primary" className={styles.title}>
+          <Title order={1} c="primary" style={{ letterSpacing: '0.02em', textAlign: 'center' }}>
             Community Events
           </Title>
-          <Text size="xl" c="dark.6" fw={300} className={styles.subtitle}>
+          <Text size="xl" c="dark.6" fw={300} style={{ 
+            letterSpacing: '0.03em', 
+            lineHeight: 1.6,
+            textAlign: 'center',
+            maxWidth: 600,
+            margin: '0 auto'
+          }}>
             Join me for workshops, support groups, and inspiring gatherings
           </Text>
         </Box>
