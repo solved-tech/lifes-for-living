@@ -11,7 +11,7 @@ const Badge: React.FC<BadgeProps> = ({
   const variantClasses = {
     default: "bg-off-white text-deep-navy border border-gray-200",
     primary: "bg-primary text-white",
-    secondary: "bg-accent-pink text-deep-navy",
+    secondary: "bg-accent-teal text-white",
   };
   
   const combinedClasses = `${baseClasses} ${variantClasses[variant]} ${className}`;

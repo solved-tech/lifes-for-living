@@ -18,14 +18,14 @@ const Button: React.FC<ButtonProps> = ({
   const baseClasses = "font-body font-semibold rounded-2xl focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed inline-block text-center";
 
   const variantClasses = {
-    primary: "bg-gradient-to-r from-primary to-lavender text-white shadow-lg",
-    secondary: "bg-gradient-to-r from-soft-purple to-accent-pink text-deep-navy shadow-md",
-    outline: "border-2 border-primary text-primary bg-white/80 backdrop-blur-sm shadow-sm",
+    primary: "bg-gradient-to-r from-primary to-accent-teal text-white shadow-lg hover:shadow-xl transition-shadow",
+    secondary: "bg-gradient-to-r from-soft-gray to-medium-gray text-deep-navy shadow-md hover:shadow-lg transition-shadow",
+    outline: "border-2 border-primary text-primary bg-white/80 backdrop-blur-sm shadow-sm hover:bg-primary hover:text-white transition-colors",
   };
 
   const hoverClasses = {
-    primary: "hover:from-primary/90 hover:to-lavender/90 hover:shadow-xl",
-    secondary: "hover:from-soft-purple/90 hover:to-accent-pink/90 hover:shadow-lg",
+    primary: "hover:from-primary/90 hover:to-accent-teal/90 hover:shadow-xl",
+    secondary: "hover:from-soft-gray/90 hover:to-medium-gray/90 hover:shadow-lg",
     outline: "hover:bg-primary hover:text-white hover:shadow-md",
   };
 

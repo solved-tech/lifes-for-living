@@ -5,11 +5,11 @@ import AnimatedSection from "@/components/ui/AnimatedSection";
 
 const ExperiencesSection: React.FC = () => {
   return (
-    <section className="py-20 bg-gradient-to-br from-white via-off-white to-soft-purple/15">
+    <section className="py-20 bg-gradient-to-br from-white via-off-white to-soft-gray/15">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <AnimatedSection className="text-center space-y-4 mb-16">
           <h2 className="text-4xl sm:text-5xl font-heading font-bold text-deep-navy">
-            Ways to Say YES Together 💜
+            Ways to Connect & Grow
           </h2>
           <p className="text-xl font-subheading text-deep-navy/70 max-w-3xl mx-auto">
             From healing retreats to adventure trips, online workshops to local meetups — 

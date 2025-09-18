@@ -6,17 +6,17 @@ import AnimatedSection from "@/components/ui/AnimatedSection";
 
 const About: React.FC = () => {
   return (
-    <section id="about" className="py-20 bg-gradient-to-br from-off-white via-white to-soft-purple/20">
+    <section id="about" className="py-20 bg-gradient-to-br from-off-white via-white to-soft-gray/20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <AnimatedSection className="space-y-8">
             <div className="space-y-4">
               <h2 className="text-4xl sm:text-5xl font-heading font-bold text-deep-navy leading-tight">
-                {aboutContent.title} 💕
+                {aboutContent.title}
               </h2>
               <p className="text-xl font-subheading text-primary font-medium">
-                {aboutContent.subtitle} ✨
+                {aboutContent.subtitle}
               </p>
               <p className="text-lg font-body text-deep-navy/80 leading-relaxed">
                 {aboutContent.description}
@@ -42,7 +42,7 @@ const About: React.FC = () => {
           {/* Image */}
           <AnimatedSection delay={0.2} className="relative">
             <div className="relative w-full h-96 lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent-pink/20 z-10"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent-teal/20 z-10"></div>
               <div className="absolute inset-0 bg-gray-200 flex items-center justify-center">
                 <div className="text-center text-gray-500">
                   <div className="text-6xl mb-4">📸</div>
@@ -60,7 +60,7 @@ const About: React.FC = () => {
             </div>
             
             {/* Decorative elements */}
-            <div className="absolute -top-4 -right-4 w-24 h-24 bg-accent-pink rounded-full opacity-20"></div>
+            <div className="absolute -top-4 -right-4 w-24 h-24 bg-accent-teal rounded-full opacity-20"></div>
             <div className="absolute -bottom-4 -left-4 w-32 h-32 bg-primary rounded-full opacity-10"></div>
           </AnimatedSection>
         </div>

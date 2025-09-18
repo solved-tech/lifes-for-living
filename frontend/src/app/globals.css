@@ -1,15 +1,15 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Pacifico&family=Caveat:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Crimson+Text:wght@400;600&family=Nunito:wght@300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 :root {
-  --background: #F9F9F6;
-  --foreground: #2C2C54;
+  --background: #F8FAFC;
+  --foreground: #1E293B;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: 'Nunito', 'Quicksand', sans-serif;
+  font-family: 'Inter', system-ui, sans-serif;
   line-height: 1.6;
 }
 
@@ -20,7 +20,7 @@ html {
 
 /* Focus styles for accessibility */
 *:focus {
-  outline: 2px solid #4A5CF3;
+  outline: 2px solid #2563EB;
   outline-offset: 2px;
 }
 

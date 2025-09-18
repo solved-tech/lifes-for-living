@@ -9,14 +9,15 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Balanced Brand Colors
-        primary: "#4A5CF3", // Back to the original purple-blue
-        "deep-navy": "#2C2C54",
-        "off-white": "#F9F9F6", // Back to original off-white
-        "accent-pink": "#FCA3CC", // Soft pink accent
-        "soft-purple": "#E8D5FF", // Lavender
-        "lavender": "#B8A9FF", // Medium lavender
-        "cream": "#FFF9E6", // Warm cream
+        // Modern Professional Colors
+        primary: "#2563EB", // Modern blue
+        "deep-navy": "#1E293B", // Slate 800
+        "off-white": "#F8FAFC", // Slate 50
+        "accent-teal": "#0D9488", // Teal 600
+        "accent-orange": "#EA580C", // Orange 600
+        "soft-gray": "#E2E8F0", // Slate 200
+        "medium-gray": "#64748B", // Slate 500
+        "cream": "#FFFBEB", // Amber 50
         white: "#FFFFFF",
 
         // Additional semantic colors
@@ -24,13 +25,13 @@ const config: Config = {
         foreground: "var(--foreground)",
       },
       fontFamily: {
-        // Main heading: Elegant script for personal touch
-        heading: ["Dancing Script", "cursive"],
-        // Subheadings and navigation: Clean serif
-        subheading: ["Playfair Display", "serif"],
+        // Main heading: Modern, professional sans-serif
+        heading: ["Inter", "system-ui", "sans-serif"],
+        // Subheadings: Clean, readable
+        subheading: ["Inter", "system-ui", "sans-serif"],
         // Body and UI: Consistent sans-serif
-        body: ["Nunito", "sans-serif"],
-        sans: ["Nunito", "sans-serif"],
+        body: ["Inter", "system-ui", "sans-serif"],
+        sans: ["Inter", "system-ui", "sans-serif"],
       },
       animation: {
         "fade-in": "fadeIn 0.5s ease-in-out",

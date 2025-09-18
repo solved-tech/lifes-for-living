@@ -41,16 +41,16 @@ lifes-for-living/
 ## 🎨 Design System
 
 ### Colors
-- **Primary**: Purple-blue (#4A5CF3)
-- **Accent Pink**: Soft pink (#FCA3CC)
-- **Soft Purple**: Lavender (#E8D5FF)
-- **Deep Navy**: Dark text (#2C2C54)
-- **Off White**: Background (#F9F9F6)
+- **Primary**: Modern blue (#2563EB)
+- **Accent Teal**: Professional teal (#0D9488)
+- **Accent Orange**: Vibrant orange (#EA580C)
+- **Deep Navy**: Dark text (#1E293B)
+- **Off White**: Background (#F8FAFC)
 
 ### Typography
-- **Headings**: Dancing Script (personal, handwritten feel)
-- **Subheadings**: Playfair Display (elegant serif)
-- **Body**: Nunito (clean, readable sans-serif)
+- **Headings**: Inter (modern, professional sans-serif)
+- **Subheadings**: Inter (clean and readable)
+- **Body**: Inter (professional sans-serif)
 
 ## 🛠️ Getting Started
 
