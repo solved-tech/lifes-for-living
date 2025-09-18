@@ -48,9 +48,9 @@ lifes-for-living/
 - **Off White**: Background (#F8FAFC)
 
 ### Typography
-- **Headings**: Inter (modern, professional sans-serif)
-- **Subheadings**: Inter (clean and readable)
-- **Body**: Inter (professional sans-serif)
+- **Headings**: Roboto (strong, technical sans-serif)
+- **Subheadings**: Roboto (bold and authoritative)
+- **Body**: Roboto (professional, widely-used sans-serif)
 
 ## 🛠️ Getting Started
 

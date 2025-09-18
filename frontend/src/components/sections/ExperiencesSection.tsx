@@ -8,7 +8,7 @@ const ExperiencesSection: React.FC = () => {
     <section className="py-20 bg-gradient-to-br from-white via-off-white to-soft-gray/15">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <AnimatedSection className="text-center space-y-4 mb-16">
-          <h2 className="text-4xl sm:text-5xl font-heading font-bold text-deep-navy">
+          <h2 className="text-4xl sm:text-5xl font-heading font-black text-deep-navy">
             Ways to Connect & Grow
           </h2>
           <p className="text-xl font-subheading text-deep-navy/70 max-w-3xl mx-auto">

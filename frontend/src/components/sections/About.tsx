@@ -12,7 +12,7 @@ const About: React.FC = () => {
           {/* Content */}
           <AnimatedSection className="space-y-8">
             <div className="space-y-4">
-              <h2 className="text-4xl sm:text-5xl font-heading font-bold text-deep-navy leading-tight">
+              <h2 className="text-4xl sm:text-5xl font-heading font-black text-deep-navy leading-tight">
                 {aboutContent.title}
               </h2>
               <p className="text-xl font-subheading text-primary font-medium">

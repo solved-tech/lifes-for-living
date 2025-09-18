@@ -25,13 +25,14 @@ const config: Config = {
         foreground: "var(--foreground)",
       },
       fontFamily: {
-        // Main heading: Modern, professional sans-serif
-        heading: ["Inter", "system-ui", "sans-serif"],
-        // Subheadings: Clean, readable
-        subheading: ["Inter", "system-ui", "sans-serif"],
-        // Body and UI: Consistent sans-serif
-        body: ["Inter", "system-ui", "sans-serif"],
-        sans: ["Inter", "system-ui", "sans-serif"],
+        // Main heading: Bold, technical font
+        heading: ["Roboto", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "sans-serif"],
+        // Subheadings: Strong and readable
+        subheading: ["Roboto", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "sans-serif"],
+        // Body and UI: Professional sans-serif
+        body: ["Roboto", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "sans-serif"],
+        sans: ["Roboto", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "sans-serif"],
+        mono: ["Roboto Mono", "Consolas", "Monaco", "monospace"],
       },
       animation: {
         "fade-in": "fadeIn 0.5s ease-in-out",

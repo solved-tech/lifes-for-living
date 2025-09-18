@@ -40,7 +40,7 @@ const Hero: React.FC = () => {
         >
           {/* Main headline */}
           <motion.h1
-            className="text-6xl sm:text-7xl lg:text-8xl font-heading font-bold text-deep-navy leading-tight"
+            className="text-6xl sm:text-7xl lg:text-8xl font-heading font-black text-deep-navy leading-tight"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
