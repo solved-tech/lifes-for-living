@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life's For Living | Say Yes to Life</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Pacifico&family=Caveat:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Crimson+Text:wght@400;600&family=Nunito:wght@300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary': '#4A5CF3',
+                        'deep-navy': '#2C2C54',
+                        'off-white': '#F9F9F6',
+                        'accent-pink': '#FCA3CC',
+                        'soft-purple': '#E8D5FF',
+                        'lavender': '#B8A9FF',
+                        'cream': '#FFF9E6',
+                    },
+                    fontFamily: {
+                        'heading': ['Dancing Script', 'cursive'],
+                        'subheading': ['Playfair Display', 'serif'],
+                        'body': ['Nunito', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { font-family: 'Nunito', 'Quicksand', sans-serif; }
+        .font-heading { font-family: 'Dancing Script', 'Pacifico', 'Caveat', cursive; }
+        .font-subheading { font-family: 'Playfair Display', 'Crimson Text', serif; }
+        .animate-bounce { animation: bounce 1s infinite; }
+        .animate-pulse { animation: pulse 2s infinite; }
+        @keyframes bounce {
+            0%, 20%, 53%, 80%, 100% { transform: translateY(0); }
+            40%, 43% { transform: translateY(-30px); }
+            70% { transform: translateY(-15px); }
+            90% { transform: translateY(-4px); }
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+    </style>
+</head>
+<body class="bg-off-white text-deep-navy">
+    <!-- Header -->
+    <header class="bg-white/95 backdrop-blur-sm border-b border-gray-100 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16 md:h-20">
+                <div class="flex items-center space-x-2">
+                    <span class="text-2xl md:text-3xl font-heading font-bold text-primary">life's for living</span>
+                </div>
+                <nav class="hidden md:flex items-center space-x-8">
+                    <a href="#" class="font-subheading font-medium text-primary">Home</a>
+                    <a href="#experiences" class="font-subheading font-medium text-deep-navy hover:text-primary">Experiences</a>
+                    <a href="#community" class="font-subheading font-medium text-deep-navy hover:text-primary">Community</a>
+                    <a href="#story" class="font-subheading font-medium text-deep-navy hover:text-primary">My Story</a>
+                </nav>
+                <div class="hidden md:block">
+                    <a href="#experiences" class="bg-gradient-to-r from-primary to-lavender text-white px-6 py-3 rounded-2xl font-body font-semibold hover:scale-105 transition-all shadow-lg">Join Our Community</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-off-white via-white to-soft-purple/30 overflow-hidden">
+        <div class="absolute inset-0 opacity-15">
+            <div class="absolute top-20 left-10 w-32 h-32 bg-primary rounded-full blur-3xl"></div>
+            <div class="absolute bottom-20 right-10 w-40 h-40 bg-soft-purple rounded-full blur-3xl"></div>
+            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-60 h-60 bg-lavender rounded-full blur-3xl opacity-60"></div>
+        </div>
+        <!-- Floating elements -->
+        <div class="absolute inset-0 overflow-hidden pointer-events-none">
+            <div class="absolute top-1/4 left-1/4 text-4xl opacity-30 animate-bounce">🌸</div>
+            <div class="absolute top-1/3 right-1/4 text-3xl opacity-40 animate-pulse">✨</div>
+            <div class="absolute bottom-1/4 left-1/3 text-3xl opacity-30 animate-bounce">🦋</div>
+            <div class="absolute bottom-1/3 right-1/3 text-4xl opacity-40 animate-pulse">💕</div>
+            <div class="absolute top-1/2 left-1/6 text-2xl opacity-30 animate-bounce">🌺</div>
+        </div>
+        <div class="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="space-y-8">
+                <h1 class="text-6xl sm:text-7xl lg:text-8xl font-heading font-bold bg-gradient-to-r from-primary via-lavender to-soft-purple bg-clip-text text-transparent leading-tight">Say yes to life.</h1>
+                <p class="text-xl sm:text-2xl font-subheading text-deep-navy/80 max-w-3xl mx-auto leading-relaxed">Join me on a journey from surviving to thriving. Together, we'll break free from what's holding us back and create lives filled with purpose, connection, and joy. ✨</p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
+                    <a href="#experiences" class="bg-gradient-to-r from-primary to-lavender text-white px-8 py-4 text-lg rounded-2xl font-body font-semibold hover:scale-105 transition-all shadow-lg">Join Our Community</a>
+                    <a href="#about" class="border-2 border-primary text-primary bg-white/80 backdrop-blur-sm px-8 py-4 text-lg rounded-2xl font-body font-semibold hover:bg-primary hover:text-white transition-colors shadow-sm">My Story</a>
+                </div>
+            </div>
+            <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+                <div class="w-6 h-10 border-2 border-deep-navy/30 rounded-full flex justify-center">
+                    <div class="w-1 h-3 bg-deep-navy/30 rounded-full mt-2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marquee -->
+    <section class="py-8 bg-gradient-to-r from-accent-pink via-soft-purple to-lavender overflow-hidden">
+        <div class="flex whitespace-nowrap">
+            <span class="text-white text-2xl sm:text-3xl font-heading font-semibold mx-8 drop-shadow-sm">Say YES</span>
+            <span class="text-white text-2xl sm:text-3xl font-heading font-semibold mx-8 drop-shadow-sm">Be Brave</span>
+            <span class="text-white text-2xl sm:text-3xl font-heading font-semibold mx-8 drop-shadow-sm">Choose Joy</span>
+            <span class="text-white text-2xl sm:text-3xl font-heading font-semibold mx-8 drop-shadow-sm">Live Fully</span>
+            <span class="text-white text-2xl sm:text-3xl font-heading font-semibold mx-8 drop-shadow-sm">Trust Yourself</span>
+            <span class="text-white text-2xl sm:text-3xl font-heading font-semibold mx-8 drop-shadow-sm">Embrace Change</span>
+            <span class="text-white text-2xl sm:text-3xl font-heading font-semibold mx-8 drop-shadow-sm">Find Your Voice</span>
+            <span class="text-white text-2xl sm:text-3xl font-heading font-semibold mx-8 drop-shadow-sm">Create Magic</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-off-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="space-y-8">
+                    <div class="space-y-4">
+                        <h2 class="text-4xl sm:text-5xl font-heading font-bold text-deep-navy leading-tight">I'm Georgie — and I believe life is meant to be lived fully. 💕</h2>
+                        <p class="text-xl font-subheading text-primary font-medium">From surviving to thriving, I'm here to show you what's possible. ✨</p>
+                        <p class="text-lg font-body text-deep-navy/80 leading-relaxed">Five years ago, I wasn't in a good place — stuck in a life that felt too small. I made a choice to say YES to the unknown, to healing, to adventure. Now I create experiences that help others break free from what's holding them back and step into their most authentic, joyful selves.</p>
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+                        <div class="text-center space-y-3">
+                            <div class="text-4xl">💚</div>
+                            <h3 class="font-subheading font-semibold text-deep-navy text-lg">Healing</h3>
+                            <p class="text-deep-navy/70 text-sm font-body">Creating safe spaces for transformation and growth</p>
+                        </div>
+                        <div class="text-center space-y-3">
+                            <div class="text-4xl">🤝</div>
+                            <h3 class="font-subheading font-semibold text-deep-navy text-lg">Community</h3>
+                            <p class="text-deep-navy/70 text-sm font-body">Building connections that change lives</p>
+                        </div>
+                        <div class="text-center space-y-3">
+                            <div class="text-4xl">🌍</div>
+                            <h3 class="font-subheading font-semibold text-deep-navy text-lg">Adventure</h3>
+                            <p class="text-deep-navy/70 text-sm font-body">Saying YES to experiences that expand your world</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="relative w-full h-96 lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl bg-gray-200 flex items-center justify-center">
+                        <div class="text-center text-gray-500">
+                            <div class="text-6xl mb-4">📸</div>
+                            <p class="text-lg font-medium">Georgie's Photo</p>
+                            <p class="text-sm">Adventure Creator</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiences Section -->
+    <section id="experiences" class="py-20 bg-gradient-to-br from-white via-off-white to-soft-purple/15">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center space-y-4 mb-16">
+                <h2 class="text-4xl sm:text-5xl font-heading font-bold text-deep-navy">Ways to Say YES Together 💜</h2>
+                <p class="text-xl font-subheading text-deep-navy/70 max-w-3xl mx-auto">From healing retreats to adventure trips, online workshops to local meetups — there are so many ways to step into your most authentic self alongside an incredible community.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                <div class="bg-white/90 backdrop-blur-sm rounded-3xl shadow-lg border border-soft-purple/20 p-8 text-center hover:scale-105 transition-transform">
+                    <div class="text-5xl mb-6">🌱</div>
+                    <h3 class="text-xl font-subheading font-semibold text-deep-navy mb-4">Healing Retreats</h3>
+                    <p class="text-deep-navy/70 leading-relaxed font-body">Weekend workshops focused on mental health, self-discovery, and building resilience</p>
+                </div>
+                <div class="bg-white/90 backdrop-blur-sm rounded-3xl shadow-lg border border-soft-purple/20 p-8 text-center hover:scale-105 transition-transform">
+                    <div class="text-5xl mb-6">✈️</div>
+                    <h3 class="text-xl font-subheading font-semibold text-deep-navy mb-4">Adventure Trips</h3>
+                    <p class="text-deep-navy/70 leading-relaxed font-body">Small group travels to incredible destinations with a focus on personal growth</p>
+                </div>
+                <div class="bg-white/90 backdrop-blur-sm rounded-3xl shadow-lg border border-soft-purple/20 p-8 text-center hover:scale-105 transition-transform">
+                    <div class="text-5xl mb-6">🤝</div>
+                    <h3 class="text-xl font-subheading font-semibold text-deep-navy mb-4">Community Events</h3>
+                    <p class="text-deep-navy/70 leading-relaxed font-body">Local meetups, workshops, and activities to build meaningful connections</p>
+                </div>
+                <div class="bg-white/90 backdrop-blur-sm rounded-3xl shadow-lg border border-soft-purple/20 p-8 text-center hover:scale-105 transition-transform">
+                    <div class="text-5xl mb-6">💻</div>
+                    <h3 class="text-xl font-subheading font-semibold text-deep-navy mb-4">Online Workshops</h3>
+                    <p class="text-deep-navy/70 leading-relaxed font-body">Virtual sessions on mindfulness, goal-setting, and living authentically</p>
+                </div>
+            </div>
+            <div class="text-center">
+                <div class="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-xl max-w-2xl mx-auto">
+                    <h3 class="text-2xl font-heading font-bold text-deep-navy mb-4">Ready to Transform Your Life? ✨</h3>
+                    <p class="text-deep-navy/70 mb-6 font-body">Join thousands of women who've chosen courage over comfort and are living their most authentic lives.</p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                        <a href="#" class="bg-gradient-to-r from-primary to-lavender text-white px-8 py-4 text-lg rounded-2xl font-body font-semibold hover:scale-105 transition-all shadow-lg">Join Our Community</a>
+                        <a href="#" class="border-2 border-primary text-primary bg-white/80 backdrop-blur-sm px-8 py-4 text-lg rounded-2xl font-body font-semibold hover:bg-primary hover:text-white transition-colors shadow-sm">Explore Experiences</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trips Section -->
+    <section id="trips" class="py-20 bg-off-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center space-y-4 mb-16">
+                <h2 class="text-4xl sm:text-5xl font-heading font-bold text-deep-navy">Transformational Adventures ✈️</h2>
+                <p class="text-xl font-subheading text-deep-navy/70 max-w-3xl mx-auto">These aren't just trips — they're carefully crafted experiences designed to help you step outside your comfort zone, connect with incredible women, and return home as the most confident version of yourself.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Trip Card 1 -->
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-lg transition-shadow">
+                    <div class="relative h-48 bg-gray-200 flex items-center justify-center">
+                        <div class="text-center text-gray-500">
+                            <div class="text-4xl mb-2">🏞️</div>
+                            <p class="text-sm font-medium">Azores, Portugal</p>
+                        </div>
+                        <div class="absolute top-3 left-3">
+                            <span class="bg-accent-pink text-deep-navy px-3 py-1 rounded-full text-xs font-medium">Chill</span>
+                        </div>
+                    </div>
+                    <div class="p-6 space-y-4">
+                        <div>
+                            <h3 class="text-xl font-heading font-semibold text-deep-navy mb-1">Azores: Blue Lagoons & Volcano Trails</h3>
+                            <p class="text-deep-navy/70 text-sm">Azores, Portugal</p>
+                        </div>
+                        <p class="text-deep-navy/80 text-sm leading-relaxed">Thermal pools, crater lakes, dolphin watch, sunrise hikes.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-off-white text-deep-navy px-3 py-1 rounded-full text-xs font-medium">Beginner-friendly</span>
+                            <span class="bg-off-white text-deep-navy px-3 py-1 rounded-full text-xs font-medium">Nature</span>
+                            <span class="bg-off-white text-deep-navy px-3 py-1 rounded-full text-xs font-medium">Women-led</span>
+                        </div>
+                        <div class="flex justify-between items-center pt-2 border-t border-gray-100">
+                            <div>
+                                <p class="text-sm text-deep-navy/70">Jun 12 - Jun 18</p>
+                                <p class="text-lg font-semibold text-deep-navy">£1,290</p>
+                            </div>
+                            <div class="text-right">
+                                <p class="text-sm text-deep-navy/70">12 spots left</p>
+                            </div>
+                        </div>
+                        <button class="w-full border-2 border-primary text-primary bg-transparent px-6 py-3 rounded-2xl font-semibold hover:bg-primary hover:text-white transition-colors">See Details</button>
+                    </div>
+                </div>
+                <!-- Trip Card 2 -->
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-lg transition-shadow">
+                    <div class="relative h-48 bg-gray-200 flex items-center justify-center">
+                        <div class="text-center text-gray-500">
+                            <div class="text-4xl mb-2">🏜️</div>
+                            <p class="text-sm font-medium">Morocco</p>
+                        </div>
+                        <div class="absolute top-3 left-3">
+                            <span class="bg-primary text-white px-3 py-1 rounded-full text-xs font-medium">Active</span>
+                        </div>
+                    </div>
+                    <div class="p-6 space-y-4">
+                        <div>
+                            <h3 class="text-xl font-heading font-semibold text-deep-navy mb-1">Morocco: Sahara Under the Stars</h3>
+                            <p class="text-deep-navy/70 text-sm">Morocco</p>
+                        </div>
+                        <p class="text-deep-navy/80 text-sm leading-relaxed">Medina wander, dunes at golden hour, campfire music.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-off-white text-deep-navy px-3 py-1 rounded-full text-xs font-medium">Culture</span>
+                            <span class="bg-off-white text-deep-navy px-3 py-1 rounded-full text-xs font-medium">Desert</span>
+                            <span class="bg-off-white text-deep-navy px-3 py-1 rounded-full text-xs font-medium">Group Vibes</span>
+                        </div>
+                        <div class="flex justify-between items-center pt-2 border-t border-gray-100">
+                            <div>
+                                <p class="text-sm text-deep-navy/70">Oct 2 - Oct 8</p>
+                                <p class="text-lg font-semibold text-deep-navy">£1,150</p>
+                            </div>
+                            <div class="text-right">
+                                <p class="text-sm text-deep-navy/70">14 spots left</p>
+                            </div>
+                        </div>
+                        <button class="w-full border-2 border-primary text-primary bg-transparent px-6 py-3 rounded-2xl font-semibold hover:bg-primary hover:text-white transition-colors">See Details</button>
+                    </div>
+                </div>
+                <!-- Trip Card 3 -->
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-lg transition-shadow">
+                    <div class="relative h-48 bg-gray-200 flex items-center justify-center">
+                        <div class="text-center text-gray-500">
+                            <div class="text-4xl mb-2">🏔️</div>
+                            <p class="text-sm font-medium">Iceland</p>
+                        </div>
+                        <div class="absolute top-3 left-3">
+                            <span class="bg-accent-pink text-deep-navy px-3 py-1 rounded-full text-xs font-medium">Chill</span>
+                        </div>
+                    </div>
+                    <div class="p-6 space-y-4">
+                        <div>
+                            <h3 class="text-xl font-heading font-semibold text-deep-navy mb-1">Iceland: Northern Lights & Hot Springs</h3>
+                            <p class="text-deep-navy/70 text-sm">Iceland</p>
+                        </div>
+                        <p class="text-deep-navy/80 text-sm leading-relaxed">Ice caves, geysers, northern lights, cozy lodges.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-off-white text-deep-navy px-3 py-1 rounded-full text-xs font-medium">Winter</span>
+                            <span class="bg-off-white text-deep-navy px-3 py-1 rounded-full text-xs font-medium">Aurora</span>
+                            <span class="bg-off-white text-deep-navy px-3 py-1 rounded-full text-xs font-medium">Photography</span>
+                        </div>
+                        <div class="flex justify-between items-center pt-2 border-t border-gray-100">
+                            <div>
+                                <p class="text-sm text-deep-navy/70">Mar 15 - Mar 22</p>
+                                <p class="text-lg font-semibold text-deep-navy">£1,450</p>
+                            </div>
+                            <div class="text-right">
+                                <p class="text-sm text-deep-navy/70">10 spots left</p>
+                            </div>
+                        </div>
+                        <button class="w-full border-2 border-primary text-primary bg-transparent px-6 py-3 rounded-2xl font-semibold hover:bg-primary hover:text-white transition-colors">See Details</button>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-12">
+                <a href="#" class="bg-primary text-white px-8 py-4 text-lg rounded-2xl font-semibold hover:bg-blue-600 transition-colors">View All Trips</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instagram Section -->
+    <section class="py-20 bg-gradient-to-br from-soft-purple/40 via-lavender/20 to-accent-pink/15">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center space-y-6 mb-16">
+                <div class="inline-flex items-center space-x-3 bg-white/80 backdrop-blur-sm px-6 py-3 rounded-full shadow-lg">
+                    <div class="w-8 h-8 bg-gradient-to-tr from-purple-500 via-pink-500 to-orange-400 rounded-lg flex items-center justify-center">
+                        <span class="text-white text-sm">📷</span>
+                    </div>
+                    <span class="font-subheading font-semibold text-deep-navy text-lg">@lifesforliving</span>
+                </div>
+                <h2 class="text-4xl sm:text-5xl font-heading font-bold text-deep-navy">Follow Our Adventures ✨</h2>
+                <p class="text-xl text-deep-navy/70 max-w-2xl mx-auto font-body">Get daily doses of wanderlust, behind-the-scenes moments, and travel inspiration on Instagram! 💕</p>
+            </div>
+
+            <!-- Instagram Grid -->
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-12">
+                <div class="aspect-square bg-gradient-to-br from-soft-purple/30 to-lavender/20 rounded-2xl flex items-center justify-center text-4xl shadow-lg hover:scale-105 transition-transform cursor-pointer">🌸</div>
+                <div class="aspect-square bg-gradient-to-br from-soft-purple/30 to-lavender/20 rounded-2xl flex items-center justify-center text-4xl shadow-lg hover:scale-105 transition-transform cursor-pointer">🏖️</div>
+                <div class="aspect-square bg-gradient-to-br from-soft-purple/30 to-lavender/20 rounded-2xl flex items-center justify-center text-4xl shadow-lg hover:scale-105 transition-transform cursor-pointer">🌅</div>
+                <div class="aspect-square bg-gradient-to-br from-soft-purple/30 to-lavender/20 rounded-2xl flex items-center justify-center text-4xl shadow-lg hover:scale-105 transition-transform cursor-pointer">🏔️</div>
+                <div class="aspect-square bg-gradient-to-br from-soft-purple/30 to-lavender/20 rounded-2xl flex items-center justify-center text-4xl shadow-lg hover:scale-105 transition-transform cursor-pointer">🌺</div>
+                <div class="aspect-square bg-gradient-to-br from-soft-purple/30 to-lavender/20 rounded-2xl flex items-center justify-center text-4xl shadow-lg hover:scale-105 transition-transform cursor-pointer">🦋</div>
+            </div>
+
+            <!-- Call to Action -->
+            <div class="text-center">
+                <div class="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-xl max-w-2xl mx-auto">
+                    <h3 class="text-2xl font-heading font-bold text-deep-navy mb-4">Join Our Instagram Family! 💖</h3>
+                    <p class="text-deep-navy/70 mb-6 font-body">Get exclusive behind-the-scenes content, travel tips, and be the first to know about new trips!</p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                        <a href="https://instagram.com/lifesforliving" class="bg-gradient-to-r from-purple-500 via-pink-500 to-orange-400 text-white px-8 py-4 text-lg rounded-2xl font-semibold hover:scale-105 transition-all shadow-lg inline-flex items-center justify-center space-x-2">
+                            <span>📷</span>
+                            <span>Follow @lifesforliving</span>
+                        </a>
+                        <button class="border-2 border-primary text-primary bg-white/80 px-8 py-4 text-lg rounded-2xl font-semibold hover:bg-primary hover:text-white transition-colors">View Stories</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-deep-navy text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="space-y-4">
+                    <span class="text-2xl font-heading font-bold text-white">life's for living</span>
+                    <p class="text-gray-300 text-sm">Adventures that change how you see the world.</p>
+                    <p class="text-gray-400 text-sm">© 2025 Life's For Living. All rights reserved.</p>
+                </div>
+                <div class="space-y-4">
+                    <h3 class="font-semibold text-lg">Follow the Journey</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-300 hover:text-accent-pink transition-colors">📷 Instagram</a>
+                        <a href="#" class="text-gray-300 hover:text-accent-pink transition-colors">📺 YouTube</a>
+                        <a href="#" class="text-gray-300 hover:text-accent-pink transition-colors">🎵 TikTok</a>
+                    </div>
+                </div>
+                <div class="space-y-4">
+                    <h3 class="font-semibold text-lg">Stay in the Loop</h3>
+                    <p class="text-gray-300 text-sm">Get notified about new trips and travel inspiration.</p>
+                    <div class="flex gap-3">
+                        <input type="email" placeholder="Enter your email" class="flex-1 px-4 py-3 rounded-2xl border border-gray-300 text-deep-navy">
+                        <button class="bg-primary text-white px-6 py-3 rounded-2xl font-semibold hover:bg-blue-600 transition-colors">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

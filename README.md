@@ -20,7 +20,23 @@ A beautiful, responsive website built with Next.js, TypeScript, and Tailwind CSS
 - **Styling**: Tailwind CSS
 - **Animations**: Framer Motion
 - **Fonts**: Google Fonts (Dancing Script, Playfair Display, Nunito)
-- **Deployment**: Netlify
+- **Deployment**: Netlify (from `dist/` directory)
+
+## 📁 Project Structure
+
+```
+lifes-for-living/
+├── frontend/              # Next.js application
+│   ├── src/              # Source code
+│   ├── public/           # Static assets
+│   ├── package.json      # Dependencies
+│   └── next.config.ts    # Next.js configuration
+├── static-deploy/        # Static HTML fallback
+├── dist/                 # Built files for deployment
+├── build.sh             # Build script
+├── netlify.toml         # Netlify configuration
+└── README.md            # This file
+```
 
 ## 🎨 Design System
 
@@ -44,6 +60,7 @@ A beautiful, responsive website built with Next.js, TypeScript, and Tailwind CSS
 
 ### Installation
 ```bash
+cd frontend
 npm install
 npm run dev
 ```
@@ -52,19 +69,26 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 🚀 Deployment to Netlify
 
-This project is configured for Netlify deployment with static export:
+This project is configured for Netlify deployment from the `dist/` directory:
 
 ### Automatic Deployment
 1. Connect your GitHub repository to Netlify
 2. Netlify will automatically detect the configuration
-3. Build command: `npm run build`
-4. Publish directory: `out`
+3. Build command: `./build.sh`
+4. Publish directory: `dist`
 
 ### Manual Deployment
 ```bash
-npm run build
-# Upload the 'out' folder to Netlify
+./build.sh
+# Upload the 'dist' folder to Netlify
 ```
+
+### Build Process
+The build script (`build.sh`) will:
+1. Install dependencies in the `frontend/` directory
+2. Build the Next.js application
+3. Copy the output to the `dist/` directory
+4. If the build fails, it falls back to the static HTML version
 
 ### Configuration Files
 - `netlify.toml`: Build and deployment settings
