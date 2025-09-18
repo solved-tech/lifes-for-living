@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8b8a39f5-9bff-436c-8ced-545f93088052" name="Changes" comment="add favicon and fix styling and general issues">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/CarouselSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/CarouselSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/ImageGrid.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ImageGrid.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/IntroCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/IntroCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/data/mockData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/data/mockData.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/mocks/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/mocks/api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Contact.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/EventsPage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/EventsPage.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/EventsPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/EventsPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/HomePage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/HomePage.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/HomePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/HomePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/TravelPage.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/TravelPage.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/TravelPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/TravelPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/types/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/types/api.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Remus-Baciu-4ku_nbcuni&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:solved-tech/lifes-for-living.git&quot;,
+    &quot;accountId&quot;: &quot;55f94d58-0a5c-4f34-ab07-dcdfffeb6549&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2zJuUi78oiiBj2mYA8CvOV35U3n" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mba42/workspace/lifes-for-living&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;/Users/mba42/.nvm/versions/node/v20.19.0/bin/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.nodejs&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/mba42/workspace/lifes-for-living/frontend/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend" />
+      <recent name="$PROJECT_DIR$/frontend/src/assets" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
+      <option name="appName" />
+      <option name="appServicePlanName" />
+      <option name="appServicePlanResourceGroup" />
+      <option name="appSettingsKey" value="d0c0402c-e5ec-42dc-8473-faa8b40a6c02" />
+      <option name="artifact" />
+      <option name="debugOptions" />
+      <option name="deployment" />
+      <option name="deploymentStagingDirectoryPath" />
+      <option name="funcPath" />
+      <option name="functionHostArguments" />
+      <option name="hostJsonPath" />
+      <option name="insightsName" />
+      <option name="instrumentationKey" />
+      <option name="javaVersion" />
+      <option name="localSettingsJsonPath" />
+      <option name="moduleName" />
+      <option name="os" />
+      <option name="pricingTier" />
+      <option name="providerMap">
+        <map />
+      </option>
+      <option name="region" />
+      <option name="resourceGroup" />
+      <option name="stagingFolder" />
+      <option name="subscription" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="lifes-for-living" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="lifes-for-living" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26927.53" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.26927.53" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b8a39f5-9bff-436c-8ced-545f93088052" name="Changes" comment="" />
+      <created>1751461515163</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1751461515163</updated>
+      <workItem from="1751461516510" duration="4561000" />
+      <workItem from="1751534831378" duration="26000" />
+      <workItem from="1751534866367" duration="4498000" />
+      <workItem from="1751539471347" duration="11121000" />
+      <workItem from="1751553061081" duration="3216000" />
+      <workItem from="1751801939844" duration="100000" />
+      <workItem from="1751802042682" duration="1258000" />
+      <workItem from="1751883544008" duration="39000" />
+      <workItem from="1751886203479" duration="140000" />
+      <workItem from="1751886373889" duration="118000" />
+      <workItem from="1751886506944" duration="6892000" />
+      <workItem from="1753320251362" duration="1797000" />
+    </task>
+    <task id="LOCAL-00001" summary="add .idea settings and fix type issue">
+      <option name="closed" value="true" />
+      <created>1751886656075</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1751886656075</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update site title">
+      <option name="closed" value="true" />
+      <created>1751886840597</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1751886840597</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add favicon and fix styling and general issues">
+      <option name="closed" value="true" />
+      <created>1751890606610</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1751890606610</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/frontend/src/pages/Contact.jsx" />
+        <option value="$PROJECT_DIR$/frontend/src/utils/api.js" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add .idea settings and fix type issue" />
+    <MESSAGE value="update site title" />
+    <MESSAGE value="add favicon and fix styling and general issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="add favicon and fix styling and general issues" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

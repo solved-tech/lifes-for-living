@@ -1,36 +1,129 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Life's For Living - Personal Transformation Community
 
-## Getting Started
+A beautiful, responsive website built with Next.js, TypeScript, and Tailwind CSS. Showcases Georgie's personal journey and community-focused experiences including healing retreats, adventure trips, and transformational workshops.
 
-First, run the development server:
+## 🌟 Features
 
+- **Personal Story**: Authentic narrative of transformation and growth
+- **Multiple Experiences**: Healing retreats, adventure trips, community events, online workshops
+- **Instagram Integration**: Prominently featured social media presence
+- **Responsive Design**: Mobile-first approach with beautiful feminine design
+- **SEO Optimized**: Complete meta tags, OpenGraph, structured data, and sitemap
+- **Animations**: Smooth Framer Motion animations with reduced motion support
+- **Accessibility**: WCAG AA compliant with proper focus management
+- **Performance**: Optimized for Lighthouse scores ≥90
+
+## 🚀 Tech Stack
+
+- **Framework**: Next.js 15 with App Router (Static Export)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Fonts**: Google Fonts (Dancing Script, Playfair Display, Nunito)
+- **Deployment**: Netlify
+
+## 🎨 Design System
+
+### Colors
+- **Primary**: Purple-blue (#4A5CF3)
+- **Accent Pink**: Soft pink (#FCA3CC)
+- **Soft Purple**: Lavender (#E8D5FF)
+- **Deep Navy**: Dark text (#2C2C54)
+- **Off White**: Background (#F9F9F6)
+
+### Typography
+- **Headings**: Dancing Script (personal, handwritten feel)
+- **Subheadings**: Playfair Display (elegant serif)
+- **Body**: Nunito (clean, readable sans-serif)
+
+## 🛠️ Getting Started
+
+### Prerequisites
+- Node.js 18.18.0 or higher
+- npm, yarn, or pnpm
+
+### Installation
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Deployment to Netlify
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project is configured for Netlify deployment with static export:
 
-## Learn More
+### Automatic Deployment
+1. Connect your GitHub repository to Netlify
+2. Netlify will automatically detect the configuration
+3. Build command: `npm run build`
+4. Publish directory: `out`
 
-To learn more about Next.js, take a look at the following resources:
+### Manual Deployment
+```bash
+npm run build
+# Upload the 'out' folder to Netlify
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Configuration Files
+- `netlify.toml`: Build and deployment settings
+- `public/_redirects`: Client-side routing support
+- `next.config.ts`: Static export configuration
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📱 Sections
 
-## Deploy on Vercel
+- **Hero**: Personal transformation message with call-to-action
+- **Marquee**: Inspirational words (Say YES, Be Brave, Choose Joy, etc.)
+- **About**: Georgie's story and values (Healing, Community, Adventure)
+- **Experiences**: 4 types of offerings (Retreats, Trips, Events, Workshops)
+- **Featured Trips**: Transformational travel experiences
+- **Instagram**: Prominently featured social media integration
+- **Testimonials**: Stories of personal transformation
+- **Newsletter**: Community building and updates
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎯 Content Management
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Update Content
+- **Personal Story**: Edit `src/data/content.ts` - aboutContent
+- **Experiences**: Edit `src/data/content.ts` - experiences
+- **Trips**: Edit `src/data/trips.ts`
+- **Testimonials**: Edit `src/data/content.ts` - testimonials
+- **Inspirational Words**: Edit `src/data/content.ts` - inspirationalWords
+
+### SEO Settings
+- **Meta Tags**: Update `src/app/layout.tsx`
+- **Structured Data**: Edit `src/components/SEO/StructuredData.tsx`
+
+## 🌈 Key Features
+
+### Personal Transformation Focus
+- Authentic storytelling about overcoming challenges
+- Community-building emphasis
+- Multiple ways to engage (not just travel)
+- Healing and growth-focused messaging
+
+### Instagram Integration
+- Dedicated section with photo grid
+- Prominent follow button with Instagram gradient
+- Social proof and community building
+- Behind-the-scenes content promotion
+
+### Feminine Design
+- Soft color palette with purple and pink accents
+- Elegant typography with script and serif fonts
+- Rounded corners and glass-morphism effects
+- Floating animations and gentle transitions
+
+## 📊 Performance
+
+- Static export for fast loading
+- Optimized images and fonts
+- Minimal JavaScript bundle
+- SEO-friendly structure
+- Mobile-first responsive design
+
+## 📞 Support
+
+For questions about the website, contact the development team.
+For Life's For Living inquiries, visit the Instagram page or use the contact form on the website.
